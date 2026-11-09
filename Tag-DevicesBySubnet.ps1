@@ -31,7 +31,7 @@ $subnetTags = @{
     '10.1.120.0/23'    = 'Denver'
     '10.1.120.64/27'   = 'Denver - Lab'      # more specific, wins over 10.1.120.0/23
     '172.16.0.0/16'    = 'VPN'
-    '192.168.0.0/16'   = 'Remote / Home'
+    '192.168.0.0/16'   = 'Remote'
 }
 
 # Tag for devices that match none of the subnets. Leave '' to do nothing.
